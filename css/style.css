@@ -1,3 +1,123 @@
-body {
-    background-color: antiquewhite;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+/*nagbar : logo and image */
+
+#logo {
+    margin: 100px 41px;
+}
+
+#logo img {
+    height: 132px;
+    margin: 13px 14px;
+}
+
+
+/*navbar : list styling */
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    font-size: 1.3rem;
+    position: absolute;
+    height: 70%;
+    width: 200%;
+    z-index: -10;
+    /*opacity: 0.4;*/
+}
+
+#navbar ul li {
+    color: red;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: burlywood;
+    background-color: red;
+}
+
+
+/*home section*/
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 490px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background-color: greenyellow;
+    font-size: 1.3rem;
+    position: absolute;
+    height: 100%;
+    width: 200%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+}
+
+#home p {
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/*utilly classes*/
+
+.h-primary {
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+#h-secomdary {
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+
+/*Our services*/
+
+#home2 {
+    margin: auto;
+    display: flex;
+}
+
+#home2 .box {
+    border: 2px rgb(255, 0, 0);
+    padding: 50px
+}
+
+#home2 .box img {
+    height: 100px;
 }
