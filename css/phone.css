@@ -1,0 +1,22 @@
+/*navbar : list styling */
+
+#navbar {
+    flex-direction: column;
+}
+
+
+/*home section*/
+
+#home {}
+
+
+/*Our services*/
+
+#home2 {
+    flex-direction: column;
+}
+
+
+/*footer*/
+
+footer {}
